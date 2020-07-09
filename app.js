@@ -25,13 +25,14 @@
   if n - no no i did hehe, he was not too thrilled about it. 
 */
 
-
+function askName(){
 var UserName = prompt('Hi there! What\'s your name?');{
     alert('It\'s to meet you, ' + UserName + ' I hope we can be friends! But first, I must ask ye these questions many to see if I can call you buddy.');
 }
+}
+askName();
 
-
-
+function askCaliQuestion(){
 var californiaanswer = prompt('Am I originally from Southern California? (y/n)');
 
 if(californiaanswer === 'y'){
@@ -39,7 +40,10 @@ if(californiaanswer === 'y'){
 } else {
   alert('I wish i wasn\'t.');
 }
+}
+askCaliQuestion();
 
+function askGameQuestion(){
 var gameanswer = prompt('What game did i play most as a kid? sonic adventure or mario 64?');
 
 if(gameanswer === 'sonic adventure'){
@@ -49,7 +53,10 @@ if(gameanswer === 'sonic adventure'){
 } else {
   alert('I do play a lot of games, but this was more just to show what team I was on. (#\teamsonic #\hashtag)');
 }
+}
+askGameQuestion();
 
+function askHierloomQuestion(){
 var hierloomanswer = prompt('At what age did i earn my family heirloom, a 200 year old machete? (1-10)');
 
 switch(hierloomanswer){
@@ -73,7 +80,10 @@ default:
   alert('not even in the ballpark');
 
 }
+}
+askHierloomQuestion();
 
+function askMusicQuestion(){
 var musicanswer = prompt('What kind of music do i like? (Instrumentals or rap?)');
 
 if(musicanswer === 'instrumentals'){
@@ -90,7 +100,10 @@ if(yellinganswer === 'y'){
 } else {
   alert('no no i did hehe, he was not too thrilled about it.');
 }
+}
+askMusicQuestion();
 
+function askDungeonQuestion(){
 var dungeonanddragonanswer = prompt('Do I play Dungeons and Dragons?');
 
 if(dungeonanddragonanswer === 'y'){
@@ -98,6 +111,9 @@ if(dungeonanddragonanswer === 'y'){
 } else {
   alert('Clearly you rolled low on your insight check!')
 }
+}
+askDungeonQuestion();
+
 
 var didthishappenarray = ['(A) I got my first kiss from a Parrot.', '(B) Was stranded on a boat with no food or water for two days.', '(C) Got ran over by my own ATV 3 times in the same day.', '(D) Accidentally set a field on fire and almost lit up the house next to it.', '(E) Lead and Coordinated the arrival for Air Force One to Seattle During the Obama Administration.', '(F) Took a nap underwater while Scuba Diving.', '(G) Spent my first date in High School shoplifting because my Girlfriend was a Kleptomanic.', '(H) Survived a whole month eating nothing but Hot Pockets.'];
 didthishappenarray[A] === 'I got my first kiss from a Parrot.';
