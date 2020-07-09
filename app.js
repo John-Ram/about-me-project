@@ -25,13 +25,14 @@
   if n - no no i did hehe, he was not too thrilled about it. 
 */
 
-
+function askName(){
 var UserName = prompt('Hi there! What\'s your name?');{
     alert('It\'s to meet you, ' + UserName + ' I hope we can be friends! But first, I must ask ye these questions many to see if I can call you buddy.');
 }
+}
+askName();
 
-
-
+function askCaliQuestion(){
 var californiaanswer = prompt('Am I originally from Southern California? (y/n)');
 
 if(californiaanswer === 'y'){
@@ -39,6 +40,8 @@ if(californiaanswer === 'y'){
 } else {
   alert('I wish i wasn\'t.');
 }
+}
+askCaliQuestion();
 
 var gameanswer = prompt('What game did i play most as a kid? sonic adventure or mario 64?');
 
