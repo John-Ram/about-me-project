@@ -83,6 +83,7 @@ default:
 }
 askHierloomQuestion();
 
+function askMusicQuestion(){
 var musicanswer = prompt('What kind of music do i like? (Instrumentals or rap?)');
 
 if(musicanswer === 'instrumentals'){
@@ -99,6 +100,8 @@ if(yellinganswer === 'y'){
 } else {
   alert('no no i did hehe, he was not too thrilled about it.');
 }
+}
+askMusicQuestion();
 
 var dungeonanddragonanswer = prompt('Do I play Dungeons and Dragons?');
 
