@@ -114,6 +114,7 @@ if(dungeonanddragonanswer === 'y'){
 }
 askDungeonQuestion();
 
+
 var didthishappenarray = ['(A) I got my first kiss from a Parrot.', '(B) Was stranded on a boat with no food or water for two days.', '(C) Got ran over by my own ATV 3 times in the same day.', '(D) Accidentally set a field on fire and almost lit up the house next to it.', '(E) Lead and Coordinated the arrival for Air Force One to Seattle During the Obama Administration.', '(F) Took a nap underwater while Scuba Diving.', '(G) Spent my first date in High School shoplifting because my Girlfriend was a Kleptomanic.', '(H) Survived a whole month eating nothing but Hot Pockets.'];
 didthishappenarray[A] === 'I got my first kiss from a Parrot.';
 didthishappenarray[A];
