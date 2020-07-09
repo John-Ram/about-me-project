@@ -1,0 +1,72 @@
+body {
+  background-image: url('fire-background.jpg');
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+  font-size: xx-large;
+  float: inline-start;
+  padding-bottom: 20px;
+  
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  float: left;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+ol {
+  float: right;
+  box-sizing: border-box;
+  height: 250px;
+  width: 240px;
+  padding-top: 20px;
+}
+
+li {
+  color: antiquewhite;
+}
+
+
+
+section {
+  width: 800px;
+  height: 240px;
+  float: left;
+  padding-top: 30px;
+}
+
+image {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+
+div {
+  float: left;
+  border-spacing: 1px 50px ;
+}
+
+h2, h4 {
+  color: gold;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+  float: left;
+  font-size: larger;
+  padding-top: 30px;
+}
