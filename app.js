@@ -43,6 +43,7 @@ if(californiaanswer === 'y'){
 }
 askCaliQuestion();
 
+function askGameQuestion(){
 var gameanswer = prompt('What game did i play most as a kid? sonic adventure or mario 64?');
 
 if(gameanswer === 'sonic adventure'){
@@ -52,6 +53,8 @@ if(gameanswer === 'sonic adventure'){
 } else {
   alert('I do play a lot of games, but this was more just to show what team I was on. (#\teamsonic #\hashtag)');
 }
+}
+askGameQuestion();
 
 var hierloomanswer = prompt('At what age did i earn my family heirloom, a 200 year old machete? (1-10)');
 
