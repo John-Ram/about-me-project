@@ -56,6 +56,7 @@ if(gameanswer === 'sonic adventure'){
 }
 askGameQuestion();
 
+function askHierloomQuestion(){
 var hierloomanswer = prompt('At what age did i earn my family heirloom, a 200 year old machete? (1-10)');
 
 switch(hierloomanswer){
@@ -79,6 +80,8 @@ default:
   alert('not even in the ballpark');
 
 }
+}
+askHierloomQuestion();
 
 var musicanswer = prompt('What kind of music do i like? (Instrumentals or rap?)');
 
